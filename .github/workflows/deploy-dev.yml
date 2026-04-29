@@ -19,5 +19,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
-            cd /var/www/html/app/dev
+            cd /var/www/html/design-review/dev
             git pull origin dev
